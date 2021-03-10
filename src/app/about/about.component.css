@@ -1,0 +1,7 @@
+div{
+  background: url("https://www.idfreshfood.com/wp-content/uploads/2017/09/contact_us_2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

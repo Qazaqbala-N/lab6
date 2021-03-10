@@ -1,0 +1,18 @@
+<button (click)="goBack()" class="goBackButton">Go Back</button>
+<div *ngFor="let photo of photos" class="flex-container">
+  <div *ngIf="photo.url">
+    <img src="{{photo.url}}">
+  </div>
+  <div class="left">
+    <div *ngIf="photo.albumId">
+      <h3> AlbumID: {{photo.albumId}}</h3>
+    </div>
+    <div *ngIf="photo.id">
+      <h3> PhotoID: {{photo.id}}</h3>
+    </div>
+    <div *ngIf="photo.title">
+      <p>{{photo.title}}</p>
+    </div>
+  </div>
+
+</div>

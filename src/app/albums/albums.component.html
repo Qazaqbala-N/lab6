@@ -1,0 +1,10 @@
+<h2>Post List</h2>
+
+<fieldset>
+  <input type="text" [(ngModel)]="newAlbum">
+  <button (click)="addAlbum()">New Album</button>
+</fieldset>
+<div *ngFor="let album of albums">
+  <a [routerLink]="['/albums', album.id]">{{album.id}}) {{album.title}}</a>
+  <button (click)="deleteAlbum(album.id)"><img src="https://icon2.cleanpng.com/20180401/ztw/kisspng-renca-computer-icons-trash-recycle-bin-5ac1163329e985.7681847815226035711717.jpg" style="width:20px;height:20px;"></button>
+</div>

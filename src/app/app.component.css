@@ -1,0 +1,14 @@
+nav{
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid green;
+  border-radius: 3px;
+  background-color: orangered;
+  font: italic bold 12px/20px arial,sans-serif;
+}
+a{
+  border: 1px solid red;
+  border-radius: 2px;
+  margin: 2px;
+}
+
